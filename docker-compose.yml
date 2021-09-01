@@ -25,4 +25,4 @@ volumes:
   db-data:
     driver: local
   web-data:
-   driver: local
+    driver: local
