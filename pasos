@@ -1,12 +1,8 @@
 create addons and config folders
     Run sudo chmod -R 775 addons (We need it writable from inside the docker container, for example for an odoo_bin utility)
     Run docker-compose up -d
-    Generate a module docker exec -d odoo-test_web_1 /usr/bin/odoo scaffold "modulo_custom" /mnt/extra-addons && sudo chown -R marcelompz:marcelompz addons/openacademy (pavel is a my user . If we don't change an owner we will not be able to edit a source code outside the container)
-
+    Generate a module docker exec -d odoo-test_web_1 /usr/bin/odoo scaffold "modulo_custom" /mnt/extra-addons && sudo chown -R your_user:your_user addons/ 
     
     Master password: rgkv-z4by-b4ty
 
     Master password servidor jose: icb9-ibcm-pef5
-
-
-    
